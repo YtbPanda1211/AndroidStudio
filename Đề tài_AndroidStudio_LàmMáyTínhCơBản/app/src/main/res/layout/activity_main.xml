@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="16dp"
+    android:background="@drawable/zl">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tableTinh">
+
+        \\Tên máy tính
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+            <TextView
+                android:text="Điền"
+                android:textSize="35dp"
+                android:layout_span="4"
+                android:textColor="#ff00"
+                android:textAlignment="center"
+                android:gravity="center_horizontal" />
+        </TableRow>
+        \\Chỗ chứa số
+
+        <TableRow
+            android:layout_width="392dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/kq"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_span="4"
+                android:background="@color/black"
+                android:gravity="center_horizontal"
+                android:textAlignment="center"
+                android:textSize="50dp" />
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_span="4"
+                android:gravity="center_horizontal"
+                android:text="Được làm bởi Điền"
+                android:textAlignment="center"
+                android:textColor="#ff00"
+                android:textSize="30dp" />
+        </TableRow>
+        \\Chỗ để Bấm
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            >
+
+            <Button
+                android:text="7"
+                android:id="@+id/so7"
+                android:textSize="30dp"
+                />
+            <Button
+                android:text="8"
+                android:id="@+id/so8"
+                android:textSize="30dp"
+                />
+            <Button
+                android:text="9"
+                android:id="@+id/so9"
+                android:textSize="30dp"
+                />
+            <Button
+                android:text="+"
+                android:id="@+id/btnCong"
+                android:textSize="30dp"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+
+            <Button
+                android:text="4"
+                android:id="@+id/so4"
+                android:textSize="30dp"
+                />
+            <Button
+                android:text="5"
+                android:id="@+id/so5"
+                android:textSize="30dp"
+                />
+            <Button
+                android:text="6"
+                android:id="@+id/so6"
+                android:textSize="30dp"
+                />
+            <Button
+                android:text="-"
+                android:id="@+id/btnTru"
+                android:textSize="30dp"
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+
+            <Button
+                android:text="3"
+                android:id="@+id/so3"
+                android:textSize="30dp"
+                />
+            <Button
+                android:text="2"
+                android:id="@+id/so2"
+                android:textSize="30dp"
+                />
+            <Button
+                android:text="1"
+                android:id="@+id/so1"
+                android:textSize="30dp"
+                />
+            <Button
+                android:text="*"
+                android:id="@+id/btnNhan"
+                android:textSize="30dp"
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+
+            <Button
+                android:text="AC"
+                android:id="@+id/btnXoa"
+                android:textSize="30dp"
+                />
+            <Button
+                android:text="0"
+                android:id="@+id/so0"
+                android:textSize="30dp"
+                />
+            <Button
+                android:text="="
+                android:id="@+id/btnTinh"
+                android:textSize="30dp"
+                />
+            <Button
+                android:text=":"
+                android:id="@+id/btnChia"
+                android:textSize="30dp"
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@drawable/demo">
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>
